@@ -13,36 +13,36 @@ Best param
 {'n_neighbors': 1}
 
 Mean fit time
-{'n_neighbors': 1}:  0.00021140575408935548
-{'n_neighbors': 2}:  0.00019652843475341796
-{'n_neighbors': 3}:  0.00019390583038330077
-{'n_neighbors': 4}:  0.0001936674118041992
-{'n_neighbors': 5}:  0.00019254684448242188
-{'n_neighbors': 6}:  0.00019276142120361328
-{'n_neighbors': 7}:  0.00019440650939941406
-{'n_neighbors': 8}:  0.0001962423324584961
-{'n_neighbors': 9}:  0.0001947164535522461
-{'n_neighbors': 10}:  0.00020151138305664064
-{'n_neighbors': 11}:  0.0001932382583618164
-{'n_neighbors': 12}:  0.00019321441650390624
-{'n_neighbors': 13}:  0.00019707679748535157
-{'n_neighbors': 14}:  0.00019800662994384766
-{'n_neighbors': 15}:  0.00019414424896240233
-{'n_neighbors': 16}:  0.0001969575881958008
-{'n_neighbors': 17}:  0.00019495487213134767
-{'n_neighbors': 18}:  0.00019350051879882813
-{'n_neighbors': 19}:  0.0001974821090698242
-{'n_neighbors': 20}:  0.00019319057464599608
-{'n_neighbors': 21}:  0.00019712448120117186
-{'n_neighbors': 22}:  0.00019512176513671874
-{'n_neighbors': 23}:  0.00019464492797851562
-{'n_neighbors': 24}:  0.0001950502395629883
-{'n_neighbors': 25}:  0.00019290447235107422
-{'n_neighbors': 26}:  0.00018923282623291017
-{'n_neighbors': 27}:  0.00014872550964355468
-{'n_neighbors': 28}:  0.00014891624450683594
-{'n_neighbors': 29}:  0.0001494884490966797
-{'n_neighbors': 30}:  0.0001492023468017578
+{'n_neighbors': 1}:  0.0010777950286865235
+{'n_neighbors': 2}:  0.0008693456649780274
+{'n_neighbors': 3}:  0.0005114793777465821
+{'n_neighbors': 4}:  0.0005334854125976562
+{'n_neighbors': 5}:  0.0005152702331542968
+{'n_neighbors': 6}:  0.0005438327789306641
+{'n_neighbors': 7}:  0.0006629467010498047
+{'n_neighbors': 8}:  0.0006664752960205078
+{'n_neighbors': 9}:  0.0005972146987915039
+{'n_neighbors': 10}:  0.000887751579284668
+{'n_neighbors': 11}:  0.0009986639022827148
+{'n_neighbors': 12}:  0.0006409168243408203
+{'n_neighbors': 13}:  0.0006078481674194336
+{'n_neighbors': 14}:  0.0006802082061767578
+{'n_neighbors': 15}:  0.0007308006286621093
+{'n_neighbors': 16}:  0.0007364749908447266
+{'n_neighbors': 17}:  0.0004401206970214844
+{'n_neighbors': 18}:  0.0007183074951171875
+{'n_neighbors': 19}:  0.0005014419555664062
+{'n_neighbors': 20}:  0.0009245872497558594
+{'n_neighbors': 21}:  0.000534820556640625
+{'n_neighbors': 22}:  0.00046281814575195314
+{'n_neighbors': 23}:  0.0004226922988891602
+{'n_neighbors': 24}:  0.0005052089691162109
+{'n_neighbors': 25}:  0.0003914833068847656
+{'n_neighbors': 26}:  0.0003029823303222656
+{'n_neighbors': 27}:  0.00024020671844482422
+{'n_neighbors': 28}:  0.00024094581604003907
+{'n_neighbors': 29}:  0.00024797916412353513
+{'n_neighbors': 30}:  0.00024640560150146484
 
 
 ____________________________________________________________
@@ -56,14 +56,14 @@ Best param
 {'C': 20, 'gamma': 0.001, 'kernel': 'rbf'}
 
 Mean fit time
-{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00022368431091308595
-{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0002131223678588867
-{'C': 20, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00021755695343017578
-{'C': 20, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00021336078643798828
-{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00020139217376708985
-{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0002178668975830078
-{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00021033287048339845
-{'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00020117759704589843
+{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0004099607467651367
+{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00036351680755615235
+{'C': 20, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0003414154052734375
+{'C': 20, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0003588676452636719
+{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00033869743347167967
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.000385737419128418
+{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0003804206848144531
+{'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00037903785705566405
 
 
 ____________________________________________________________
@@ -77,15 +77,15 @@ Best param
 {'C': 1, 'kernel': 'linear'}
 
 Mean fit time
-{'C': 1, 'kernel': 'linear'}:  0.00022437572479248047
-{'C': 20, 'kernel': 'linear'}:  0.00030040740966796875
-{'C': 100, 'kernel': 'linear'}:  0.0004706859588623047
-{'C': 1000, 'kernel': 'linear'}:  0.0017630100250244141
+{'C': 1, 'kernel': 'linear'}:  0.00046193599700927734
+{'C': 20, 'kernel': 'linear'}:  0.000582122802734375
+{'C': 100, 'kernel': 'linear'}:  0.0014072179794311524
+{'C': 1000, 'kernel': 'linear'}:  0.0034266948699951173
 
 
 ____________________________________________________________
 Best estimator
-DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=2,
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=7,
             max_features=None, max_leaf_nodes=None,
             min_impurity_decrease=0.0, min_impurity_split=None,
             min_samples_leaf=1, min_samples_split=2,
@@ -93,196 +93,196 @@ DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=2,
             splitter='best')
 
 Best param
-{'max_depth': 2}
+{'max_depth': 7}
 
 Mean fit time
-{'max_depth': 1}:  0.0001531839370727539
-{'max_depth': 2}:  0.00015251636505126954
-{'max_depth': 3}:  0.00015659332275390624
-{'max_depth': 4}:  0.00015926361083984375
-{'max_depth': 5}:  0.00016779899597167968
-{'max_depth': 6}:  0.0001623392105102539
-{'max_depth': 7}:  0.0001697540283203125
-{'max_depth': 8}:  0.0001612424850463867
-{'max_depth': 9}:  0.0001634359359741211
+{'max_depth': 1}:  0.0009301900863647461
+{'max_depth': 2}:  0.000607156753540039
+{'max_depth': 3}:  0.0004455804824829102
+{'max_depth': 4}:  0.0003366708755493164
+{'max_depth': 5}:  0.00029370784759521487
+{'max_depth': 6}:  0.00031621456146240233
+{'max_depth': 7}:  0.00031259059906005857
+{'max_depth': 8}:  0.00029222965240478517
+{'max_depth': 9}:  0.0002812862396240234
 
 
 ____________________________________________________________
 Best estimator
 RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
-            max_depth=9, max_features=2, max_leaf_nodes=None,
+            max_depth=5, max_features=1, max_leaf_nodes=None,
             min_impurity_decrease=0.0, min_impurity_split=None,
             min_samples_leaf=1, min_samples_split=2,
-            min_weight_fraction_leaf=0.0, n_estimators=9, n_jobs=None,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=None,
             oob_score=False, random_state=None, verbose=0,
             warm_start=False)
 
 Best param
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 9}
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 5}
 
 Mean fit time
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 1}:  0.0005809307098388672
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 2}:  0.0009669303894042969
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 3}:  0.0013257503509521485
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 4}:  0.0017004728317260743
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 5}:  0.002085423469543457
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 6}:  0.0024260997772216795
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 7}:  0.002794694900512695
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 8}:  0.003168654441833496
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 9}:  0.003510284423828125
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 1}:  0.0005948543548583984
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 2}:  0.0009653568267822266
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 3}:  0.0013351202011108398
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 4}:  0.0017468929290771484
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 5}:  0.0021188020706176757
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 6}:  0.0024346113204956055
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 7}:  0.00278928279876709
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 8}:  0.003202486038208008
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 9}:  0.0035284757614135742
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 1}:  0.0005827665328979493
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 2}:  0.0009652137756347656
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 3}:  0.0013341426849365235
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 4}:  0.0017757415771484375
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 5}:  0.0024479150772094725
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 6}:  0.002569913864135742
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 7}:  0.0028301239013671874
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 8}:  0.003168678283691406
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 9}:  0.003531789779663086
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 1}:  0.0005856752395629883
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 2}:  0.0009977579116821288
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 3}:  0.0014281272888183594
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 4}:  0.0018270492553710937
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 5}:  0.002651214599609375
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 6}:  0.0024986028671264648
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 7}:  0.0031406641006469726
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 8}:  0.003242826461791992
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 9}:  0.003641653060913086
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 1}:  0.0005924224853515625
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 2}:  0.0009845495223999023
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 3}:  0.0014688491821289063
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 4}:  0.001717543601989746
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 5}:  0.0021000146865844727
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 6}:  0.0024663925170898436
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 7}:  0.0028528928756713866
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 8}:  0.004373025894165039
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 9}:  0.004744148254394532
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 1}:  0.000652766227722168
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 2}:  0.0011673450469970703
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 3}:  0.0013573646545410156
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 4}:  0.0017514228820800781
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 5}:  0.0021145105361938476
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 6}:  0.002482175827026367
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 7}:  0.002856612205505371
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 8}:  0.0032256603240966796
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 9}:  0.0036585330963134766
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 1}:  0.0005886554718017578
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 2}:  0.0009702205657958985
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 3}:  0.0013504505157470703
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 4}:  0.0017300128936767578
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 5}:  0.002081751823425293
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 6}:  0.0024709701538085938
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 7}:  0.0029117584228515623
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 8}:  0.003237628936767578
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 9}:  0.0035994529724121095
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 1}:  0.0005915880203247071
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 2}:  0.0010410308837890624
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 3}:  0.0013850212097167968
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 4}:  0.0017719268798828125
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 5}:  0.0021438360214233398
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 6}:  0.0025220155715942384
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 7}:  0.0029152631759643555
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 8}:  0.0032719135284423827
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 9}:  0.003710150718688965
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 1}:  0.0006023406982421875
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 2}:  0.0009766101837158203
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 3}:  0.0013678789138793946
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 4}:  0.0017382144927978516
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 5}:  0.002110791206359863
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 6}:  0.002490997314453125
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 7}:  0.0028490781784057616
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 8}:  0.003222489356994629
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 9}:  0.0036358356475830076
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 1}:  0.000588226318359375
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 2}:  0.0009818553924560546
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 3}:  0.0013757705688476562
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 4}:  0.0017500877380371093
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 5}:  0.002159881591796875
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 6}:  0.0025052309036254885
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 7}:  0.0028762340545654295
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 8}:  0.003245043754577637
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 9}:  0.003643345832824707
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 1}:  0.0005924463272094727
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 2}:  0.0009718656539916993
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 3}:  0.0013571977615356445
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 4}:  0.0017334938049316407
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 5}:  0.002096700668334961
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 6}:  0.0024811983108520507
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 7}:  0.0028501272201538084
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 8}:  0.003244161605834961
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 9}:  0.0035959482192993164
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 1}:  0.0005908489227294921
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 2}:  0.0009865283966064454
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 3}:  0.0013634920120239257
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 4}:  0.0017508506774902345
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 5}:  0.0021274328231811524
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 6}:  0.002524447441101074
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 7}:  0.0028943300247192385
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 8}:  0.003291463851928711
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 9}:  0.003660130500793457
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 1}:  0.0005925178527832031
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 2}:  0.0009961605072021484
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 3}:  0.0013521671295166015
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 4}:  0.0017525434494018554
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 5}:  0.002100825309753418
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 6}:  0.0024871349334716795
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 7}:  0.0028595209121704103
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 8}:  0.0032534122467041014
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 9}:  0.0036357641220092773
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 1}:  0.0005909919738769532
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 2}:  0.00097808837890625
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 3}:  0.0013665437698364257
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 4}:  0.0017570257186889648
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 5}:  0.0021309614181518554
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 6}:  0.002504897117614746
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 7}:  0.0028724908828735352
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 8}:  0.003260946273803711
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 9}:  0.003931164741516113
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 1}:  0.0005862951278686523
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 2}:  0.0009900808334350586
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 3}:  0.0013721466064453125
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 4}:  0.0017256975173950196
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 5}:  0.002111053466796875
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 6}:  0.0024758577346801758
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 7}:  0.0028650522232055663
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 8}:  0.003238821029663086
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 9}:  0.0036661624908447266
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 1}:  0.000595259666442871
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 2}:  0.000989532470703125
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 3}:  0.0013632535934448241
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 4}:  0.0017371892929077149
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 5}:  0.0021803617477416993
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 6}:  0.0025086402893066406
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 7}:  0.0028941154479980467
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 8}:  0.0032615423202514648
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 9}:  0.0036408185958862306
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 1}:  0.0005921125411987305
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 2}:  0.000975942611694336
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 3}:  0.001356053352355957
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 4}:  0.001806640625
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 5}:  0.0021114110946655273
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 6}:  0.0024682044982910155
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 7}:  0.0028470754623413086
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 8}:  0.003220343589782715
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 9}:  0.003608369827270508
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 1}:  0.0005905866622924804
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 2}:  0.0009795904159545898
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 3}:  0.0013670206069946289
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 4}:  0.001745319366455078
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 5}:  0.0021097660064697266
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 6}:  0.002495598793029785
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 7}:  0.002891063690185547
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 8}:  0.0032480478286743162
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 9}:  0.0036339044570922853
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 1}:  0.0009461641311645508
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 2}:  0.0016464710235595704
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 3}:  0.003756594657897949
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 4}:  0.0030382394790649412
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 5}:  0.003769326210021973
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 6}:  0.004256844520568848
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 7}:  0.004865002632141113
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 8}:  0.007805037498474121
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 9}:  0.005906915664672852
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 1}:  0.0010149717330932618
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 2}:  0.0015637874603271484
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 3}:  0.0021864652633666994
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 4}:  0.002731776237487793
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 5}:  0.0033498048782348634
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 6}:  0.003934407234191894
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 7}:  0.004564690589904785
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 8}:  0.005846977233886719
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 9}:  0.005700469017028809
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 1}:  0.0009133338928222657
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 2}:  0.0015848636627197265
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 3}:  0.002209019660949707
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 4}:  0.0027734041213989258
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 5}:  0.003578472137451172
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 6}:  0.003948307037353516
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 7}:  0.004568243026733398
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 8}:  0.005871200561523437
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 9}:  0.005795097351074219
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 1}:  0.0009363651275634766
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 2}:  0.001576399803161621
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 3}:  0.0022459506988525392
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 4}:  0.00288543701171875
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 5}:  0.0034726858139038086
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 6}:  0.007278084754943848
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 7}:  0.006220555305480957
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 8}:  0.0064683198928833004
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 9}:  0.006638550758361816
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 1}:  0.0009347915649414063
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 2}:  0.0016300678253173828
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 3}:  0.0021838903427124023
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 4}:  0.0028725624084472655
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 5}:  0.004101777076721191
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 6}:  0.004212379455566406
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 7}:  0.005927824974060058
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 8}:  0.0057217121124267575
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 9}:  0.020525813102722168
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 1}:  0.005536460876464843
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 2}:  0.004783916473388672
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 3}:  0.0067789554595947266
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 4}:  0.005704903602600097
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 5}:  0.005617189407348633
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 6}:  0.004908919334411621
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 7}:  0.0049059391021728516
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 8}:  0.005429506301879883
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 9}:  0.006195759773254395
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 1}:  0.0009508371353149414
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 2}:  0.0015981674194335937
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 3}:  0.0022003889083862306
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 4}:  0.003481769561767578
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 5}:  0.004081058502197266
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 6}:  0.004321694374084473
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 7}:  0.005501985549926758
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 8}:  0.005678057670593262
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 9}:  0.00633242130279541
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 1}:  0.0009350299835205079
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 2}:  0.0015790700912475587
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 3}:  0.002233266830444336
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 4}:  0.0033082962036132812
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 5}:  0.0034681320190429687
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 6}:  0.004071784019470215
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 7}:  0.004764270782470703
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 8}:  0.005291867256164551
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 9}:  0.006318736076354981
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 1}:  0.0009363651275634766
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 2}:  0.0015841484069824218
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 3}:  0.0021681785583496094
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 4}:  0.0034357309341430664
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 5}:  0.0034980535507202148
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 6}:  0.004012274742126465
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 7}:  0.004749202728271484
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 8}:  0.005214166641235351
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 9}:  0.006125903129577637
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 1}:  0.0010027885437011719
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 2}:  0.0016150236129760741
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 3}:  0.002296733856201172
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 4}:  0.0032826900482177735
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 5}:  0.0035874366760253905
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 6}:  0.004182171821594238
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 7}:  0.004750108718872071
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 8}:  0.005446743965148926
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 9}:  0.0063629150390625
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 1}:  0.0010583162307739257
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 2}:  0.0015702009201049804
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 3}:  0.002177309989929199
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 4}:  0.0027912616729736327
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 5}:  0.004297614097595215
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 6}:  0.0041341066360473635
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 7}:  0.004877233505249023
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 8}:  0.006006312370300293
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 9}:  0.011540651321411133
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 1}:  0.002071118354797363
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 2}:  0.0034073352813720702
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 3}:  0.0030638456344604494
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 4}:  0.004034161567687988
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 5}:  0.004427671432495117
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 6}:  0.004762601852416992
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 7}:  0.007621574401855469
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 8}:  0.007890534400939942
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 9}:  0.007248067855834961
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 1}:  0.0010560274124145508
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 2}:  0.005692958831787109
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 3}:  0.0041517972946166996
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 4}:  0.0033403635025024414
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 5}:  0.007286953926086426
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 6}:  0.006359457969665527
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 7}:  0.0055027008056640625
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 8}:  0.00975019931793213
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 9}:  0.016407990455627443
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 1}:  0.002711200714111328
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 2}:  0.0024726390838623047
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 3}:  0.006503152847290039
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 4}:  0.0037189483642578124
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 5}:  0.005719566345214843
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 6}:  0.006367540359497071
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 7}:  0.005492258071899414
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 8}:  0.005436897277832031
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 9}:  0.008808422088623046
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 1}:  0.001905345916748047
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 2}:  0.002024221420288086
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 3}:  0.0026064634323120115
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 4}:  0.003342938423156738
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 5}:  0.003990292549133301
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 6}:  0.0046701192855834964
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 7}:  0.007096147537231446
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 8}:  0.007074165344238281
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 9}:  0.0059004068374633786
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 1}:  0.000969552993774414
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 2}:  0.0017996549606323243
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 3}:  0.0024272680282592775
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 4}:  0.0029945850372314455
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 5}:  0.0036243915557861326
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 6}:  0.004149341583251953
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 7}:  0.004832673072814942
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 8}:  0.006171870231628418
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 9}:  0.006037139892578125
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 1}:  0.0009937286376953125
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 2}:  0.0017711400985717773
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 3}:  0.0022646903991699217
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 4}:  0.0029062747955322264
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 5}:  0.003466296195983887
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 6}:  0.0040356159210205075
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 7}:  0.004830837249755859
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 8}:  0.005353450775146484
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 9}:  0.005947041511535645
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 1}:  0.0009865045547485351
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 2}:  0.0016266584396362304
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 3}:  0.002347517013549805
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 4}:  0.0028936386108398436
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 5}:  0.003494405746459961
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 6}:  0.004083609580993653
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 7}:  0.004793334007263184
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 8}:  0.005425071716308594
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 9}:  0.005992364883422851
 
 
 ____________________________________________________________
@@ -299,8 +299,8 @@ Best param
 {'alpha': 1}
 
 Mean fit time
-{'alpha': 1}:  0.050041723251342776
-{'alpha': 2}:  0.049895739555358885
+{'alpha': 1}:  0.1406317710876465
+{'alpha': 2}:  0.1071124792098999
 
 
 
@@ -316,36 +316,36 @@ Best param
 {'n_neighbors': 1}
 
 Mean fit time
-{'n_neighbors': 1}:  0.00019686222076416017
-{'n_neighbors': 2}:  0.0001934528350830078
-{'n_neighbors': 3}:  0.00019252300262451172
-{'n_neighbors': 4}:  0.00019202232360839843
-{'n_neighbors': 5}:  0.00019230842590332032
-{'n_neighbors': 6}:  0.00019223690032958983
-{'n_neighbors': 7}:  0.00019114017486572267
-{'n_neighbors': 8}:  0.00019159317016601563
-{'n_neighbors': 9}:  0.00019278526306152344
-{'n_neighbors': 10}:  0.00019359588623046875
-{'n_neighbors': 11}:  0.00019619464874267578
-{'n_neighbors': 12}:  0.00019326210021972657
-{'n_neighbors': 13}:  0.00019130706787109374
-{'n_neighbors': 14}:  0.0001922130584716797
-{'n_neighbors': 15}:  0.0001917123794555664
-{'n_neighbors': 16}:  0.00019342899322509765
-{'n_neighbors': 17}:  0.00019249916076660156
-{'n_neighbors': 18}:  0.00019259452819824218
-{'n_neighbors': 19}:  0.00019195079803466797
-{'n_neighbors': 20}:  0.00020096302032470703
-{'n_neighbors': 21}:  0.00019333362579345703
-{'n_neighbors': 22}:  0.00019347667694091797
-{'n_neighbors': 23}:  0.00019207000732421876
-{'n_neighbors': 24}:  0.00019159317016601563
-{'n_neighbors': 25}:  0.0001919269561767578
-{'n_neighbors': 26}:  0.00017383098602294922
-{'n_neighbors': 27}:  0.00014925003051757812
-{'n_neighbors': 28}:  0.00014832019805908204
-{'n_neighbors': 29}:  0.00014884471893310546
-{'n_neighbors': 30}:  0.0001508474349975586
+{'n_neighbors': 1}:  0.00044307708740234377
+{'n_neighbors': 2}:  0.0004574298858642578
+{'n_neighbors': 3}:  0.0005093812942504883
+{'n_neighbors': 4}:  0.0003832101821899414
+{'n_neighbors': 5}:  0.0003694295883178711
+{'n_neighbors': 6}:  0.0003758668899536133
+{'n_neighbors': 7}:  0.00035991668701171873
+{'n_neighbors': 8}:  0.0004315376281738281
+{'n_neighbors': 9}:  0.000324702262878418
+{'n_neighbors': 10}:  0.00036683082580566404
+{'n_neighbors': 11}:  0.000319671630859375
+{'n_neighbors': 12}:  0.0003450870513916016
+{'n_neighbors': 13}:  0.0003110647201538086
+{'n_neighbors': 14}:  0.00031743049621582033
+{'n_neighbors': 15}:  0.0003153085708618164
+{'n_neighbors': 16}:  0.000319981575012207
+{'n_neighbors': 17}:  0.00031185150146484375
+{'n_neighbors': 18}:  0.00031125545501708984
+{'n_neighbors': 19}:  0.0003158807754516602
+{'n_neighbors': 20}:  0.00031578540802001953
+{'n_neighbors': 21}:  0.0003184795379638672
+{'n_neighbors': 22}:  0.0003108501434326172
+{'n_neighbors': 23}:  0.00032651424407958984
+{'n_neighbors': 24}:  0.0003304243087768555
+{'n_neighbors': 25}:  0.0003273487091064453
+{'n_neighbors': 26}:  0.0002811431884765625
+{'n_neighbors': 27}:  0.0002309560775756836
+{'n_neighbors': 28}:  0.00035605430603027346
+{'n_neighbors': 29}:  0.00038478374481201174
+{'n_neighbors': 30}:  0.00027413368225097655
 
 
 ____________________________________________________________
@@ -359,14 +359,14 @@ Best param
 {'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}
 
 Mean fit time
-{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00022351741790771484
-{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00021398067474365234
-{'C': 20, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0002634763717651367
-{'C': 20, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00021584033966064452
-{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0002768516540527344
-{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0002222299575805664
-{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00030717849731445315
-{'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.000466156005859375
+{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0003790855407714844
+{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0004193544387817383
+{'C': 20, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0004382610321044922
+{'C': 20, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00036623477935791013
+{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0004539012908935547
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0003792524337768555
+{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0005557537078857422
+{'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0007586479187011719
 
 
 ____________________________________________________________
@@ -380,10 +380,10 @@ Best param
 {'C': 1, 'kernel': 'linear'}
 
 Mean fit time
-{'C': 1, 'kernel': 'linear'}:  0.0002391815185546875
-{'C': 20, 'kernel': 'linear'}:  0.00035915374755859377
-{'C': 100, 'kernel': 'linear'}:  0.0004931211471557618
-{'C': 1000, 'kernel': 'linear'}:  0.1611410856246948
+{'C': 1, 'kernel': 'linear'}:  0.00039920806884765627
+{'C': 20, 'kernel': 'linear'}:  0.0004665613174438477
+{'C': 100, 'kernel': 'linear'}:  0.000747060775756836
+{'C': 1000, 'kernel': 'linear'}:  0.319342041015625
 
 
 ____________________________________________________________
@@ -399,193 +399,193 @@ Best param
 {'max_depth': 4}
 
 Mean fit time
-{'max_depth': 1}:  0.00015041828155517578
-{'max_depth': 2}:  0.00015976428985595704
-{'max_depth': 3}:  0.00015997886657714844
-{'max_depth': 4}:  0.0001626253128051758
-{'max_depth': 5}:  0.0001701831817626953
-{'max_depth': 6}:  0.0001659393310546875
-{'max_depth': 7}:  0.00016582012176513672
-{'max_depth': 8}:  0.0001753091812133789
-{'max_depth': 9}:  0.00016694068908691407
+{'max_depth': 1}:  0.0002529144287109375
+{'max_depth': 2}:  0.0002636909484863281
+{'max_depth': 3}:  0.00027635097503662107
+{'max_depth': 4}:  0.0002775430679321289
+{'max_depth': 5}:  0.0002856254577636719
+{'max_depth': 6}:  0.0002811431884765625
+{'max_depth': 7}:  0.00029685497283935545
+{'max_depth': 8}:  0.00028412342071533204
+{'max_depth': 9}:  0.00028078556060791017
 
 
 ____________________________________________________________
 Best estimator
 RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
-            max_depth=4, max_features=1, max_leaf_nodes=None,
+            max_depth=7, max_features=1, max_leaf_nodes=None,
             min_impurity_decrease=0.0, min_impurity_split=None,
             min_samples_leaf=1, min_samples_split=2,
-            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=None,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=None,
             oob_score=False, random_state=None, verbose=0,
             warm_start=False)
 
 Best param
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 7}
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 5}
 
 Mean fit time
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 1}:  0.0006144523620605468
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 2}:  0.0009999513626098634
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 3}:  0.0013745784759521484
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 4}:  0.0017438888549804687
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 5}:  0.0021513938903808595
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 6}:  0.002608060836791992
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 7}:  0.0029181718826293947
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 8}:  0.0031981468200683594
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 9}:  0.0035264968872070314
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 1}:  0.0005805015563964844
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 2}:  0.0009781837463378907
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 3}:  0.0013634443283081054
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 4}:  0.0017428159713745116
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 5}:  0.0021253108978271486
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 6}:  0.0024962425231933594
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 7}:  0.0028330326080322266
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 8}:  0.0032033681869506835
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 9}:  0.0036430597305297852
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 1}:  0.000590372085571289
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 2}:  0.0009778976440429688
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 3}:  0.0013477563858032226
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 4}:  0.001733851432800293
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 5}:  0.0020856618881225585
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 6}:  0.002451181411743164
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 7}:  0.0028244733810424806
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 8}:  0.003292393684387207
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 9}:  0.003636479377746582
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 1}:  0.0006098270416259766
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 2}:  0.0010237455368041991
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 3}:  0.0014547109603881836
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 4}:  0.0018888473510742187
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 5}:  0.002277064323425293
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 6}:  0.002545070648193359
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 7}:  0.0028605937957763674
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 8}:  0.003228449821472168
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 9}:  0.0036075353622436524
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 1}:  0.0005863666534423828
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 2}:  0.0009745359420776367
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 3}:  0.0013497591018676758
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 4}:  0.001718902587890625
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 5}:  0.002089786529541016
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 6}:  0.00280306339263916
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 7}:  0.003242683410644531
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 8}:  0.003206968307495117
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 9}:  0.0035656213760375975
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 1}:  0.0005862951278686523
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 2}:  0.0009737491607666015
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 3}:  0.0013566255569458009
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 4}:  0.0017410755157470704
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 5}:  0.0021111249923706056
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 6}:  0.0024858713150024414
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 7}:  0.0028572320938110352
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 8}:  0.0032349824905395508
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 9}:  0.003606271743774414
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 1}:  0.0006118297576904296
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 2}:  0.00144195556640625
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 3}:  0.0017155647277832032
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 4}:  0.001744222640991211
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 5}:  0.0020951032638549805
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 6}:  0.002456068992614746
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 7}:  0.0029657840728759765
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 8}:  0.0032303571701049806
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 9}:  0.0035936594009399413
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 1}:  0.0005911827087402344
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 2}:  0.00098724365234375
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 3}:  0.001415586471557617
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 4}:  0.0017460346221923827
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 5}:  0.002114701271057129
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 6}:  0.002505993843078613
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 7}:  0.0028816699981689454
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 8}:  0.00325472354888916
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 9}:  0.0036140203475952147
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 1}:  0.0005965709686279296
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 2}:  0.0010278463363647462
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 3}:  0.0014532089233398437
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 4}:  0.0017557859420776368
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 5}:  0.002112579345703125
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 6}:  0.0024890899658203125
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 7}:  0.002842545509338379
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 8}:  0.0032366275787353515
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 9}:  0.003610038757324219
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 1}:  0.0005933761596679688
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 2}:  0.000985431671142578
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 3}:  0.00136566162109375
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 4}:  0.0017763614654541016
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 5}:  0.0021656274795532225
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 6}:  0.0025398969650268556
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 7}:  0.002894473075866699
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 8}:  0.0032989978790283203
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 9}:  0.0037276506423950194
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 1}:  0.0005878686904907226
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 2}:  0.0009776115417480468
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 3}:  0.0013617515563964845
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 4}:  0.0017669916152954102
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 5}:  0.0021079301834106444
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 6}:  0.0024770498275756836
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 7}:  0.002856588363647461
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 8}:  0.0032204389572143555
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 9}:  0.003610515594482422
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 1}:  0.000600886344909668
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 2}:  0.0009818553924560546
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 3}:  0.0013786792755126954
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 4}:  0.0017587900161743163
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 5}:  0.0022124528884887697
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 6}:  0.002522778511047363
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 7}:  0.0028837442398071287
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 8}:  0.003379535675048828
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 9}:  0.0037721872329711916
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 1}:  0.0006435155868530273
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 2}:  0.0009879350662231445
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 3}:  0.001380753517150879
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 4}:  0.0018446683883666993
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 5}:  0.0022239208221435545
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 6}:  0.002616429328918457
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 7}:  0.0029518604278564453
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 8}:  0.003299975395202637
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 9}:  0.0036256790161132814
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 1}:  0.0005985021591186524
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 2}:  0.0009827375411987304
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 3}:  0.0015057563781738282
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 4}:  0.0017596721649169923
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 5}:  0.0021478414535522463
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 6}:  0.0025140523910522463
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 7}:  0.0028804540634155273
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 8}:  0.003302597999572754
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 9}:  0.0036547183990478516
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 1}:  0.0005863666534423828
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 2}:  0.0009729385375976563
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 3}:  0.0013591766357421875
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 4}:  0.00175018310546875
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 5}:  0.0021154165267944338
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 6}:  0.0024744987487792967
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 7}:  0.0028825998306274414
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 8}:  0.0032308101654052734
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 9}:  0.0036057949066162108
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 1}:  0.0005940914154052735
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 2}:  0.0010050058364868164
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 3}:  0.001366424560546875
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 4}:  0.0017498493194580077
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 5}:  0.002131056785583496
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 6}:  0.002528953552246094
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 7}:  0.002901601791381836
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 8}:  0.0032816410064697267
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 9}:  0.0036576032638549806
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 1}:  0.0005853414535522461
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 2}:  0.0010359764099121093
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 3}:  0.0014223814010620116
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 4}:  0.0017409086227416991
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 5}:  0.002115821838378906
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 6}:  0.002481365203857422
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 7}:  0.0028463363647460937
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 8}:  0.003252100944519043
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 9}:  0.003591442108154297
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 1}:  0.0005917549133300781
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 2}:  0.0009817123413085938
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 3}:  0.0014136552810668946
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 4}:  0.0017664909362792968
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 5}:  0.00213167667388916
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 6}:  0.002498817443847656
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 7}:  0.0028966665267944336
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 8}:  0.0032725095748901366
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 9}:  0.003666067123413086
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 1}:  0.0009723186492919921
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 2}:  0.0015409231185913087
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 3}:  0.0021420717239379883
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 4}:  0.0034382104873657226
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 5}:  0.0035462141036987304
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 6}:  0.004089879989624024
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 7}:  0.004607844352722168
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 8}:  0.005544877052307129
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 9}:  0.005929684638977051
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 1}:  0.0010373830795288087
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 2}:  0.0020380735397338865
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 3}:  0.002165985107421875
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 4}:  0.005095648765563965
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 5}:  0.00336911678314209
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 6}:  0.004023981094360351
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 7}:  0.00461428165435791
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 8}:  0.0057079076766967775
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 9}:  0.006039214134216308
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 1}:  0.0009820222854614257
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 2}:  0.0016293287277221679
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 3}:  0.002313828468322754
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 4}:  0.002994394302368164
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 5}:  0.0035355091094970703
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 6}:  0.0040157556533813475
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 7}:  0.00490865707397461
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 8}:  0.005135893821716309
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 9}:  0.0058079719543457035
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 1}:  0.0009162664413452148
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 2}:  0.001635909080505371
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 3}:  0.0021607160568237306
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 4}:  0.0028007984161376952
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 5}:  0.00340726375579834
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 6}:  0.003995227813720703
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 7}:  0.004652690887451172
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 8}:  0.005267667770385742
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 9}:  0.005906295776367187
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 1}:  0.000914764404296875
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 2}:  0.0015357732772827148
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 3}:  0.002184462547302246
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 4}:  0.0028267860412597655
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 5}:  0.0033859968185424804
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 6}:  0.004029488563537598
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 7}:  0.004660511016845703
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 8}:  0.005300569534301758
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 9}:  0.005927491188049317
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 1}:  0.0009907722473144532
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 2}:  0.0015718936920166016
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 3}:  0.0022174358367919923
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 4}:  0.002828216552734375
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 5}:  0.0034319877624511717
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 6}:  0.004114341735839844
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 7}:  0.004681849479675293
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 8}:  0.005290532112121582
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 9}:  0.0059790372848510746
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 1}:  0.0009474515914916992
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 2}:  0.001551055908203125
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 3}:  0.002174782752990723
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 4}:  0.002777242660522461
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 5}:  0.0034420251846313476
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 6}:  0.0040561437606811525
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 7}:  0.004669308662414551
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 8}:  0.00540153980255127
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 9}:  0.005910706520080566
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 1}:  0.0009346485137939453
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 2}:  0.001594853401184082
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 3}:  0.002212929725646973
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 4}:  0.002816510200500488
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 5}:  0.0034953594207763673
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 6}:  0.004636955261230469
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 7}:  0.0048498868942260746
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 8}:  0.005342507362365722
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 9}:  0.005987906455993652
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 1}:  0.0009737968444824219
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 2}:  0.0015968084335327148
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 3}:  0.0022442102432250976
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 4}:  0.002880358695983887
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 5}:  0.003516840934753418
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 6}:  0.0041666746139526365
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 7}:  0.0050468921661376955
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 8}:  0.005453562736511231
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 9}:  0.006088733673095703
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 1}:  0.0009794950485229493
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 2}:  0.0016155481338500977
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 3}:  0.002322745323181152
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 4}:  0.003025650978088379
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 5}:  0.003484368324279785
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 6}:  0.004120063781738281
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 7}:  0.004763126373291016
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 8}:  0.005477428436279297
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 9}:  0.006112909317016602
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 1}:  0.0009334087371826172
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 2}:  0.0016115188598632812
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 3}:  0.0022061347961425783
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 4}:  0.002832174301147461
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 5}:  0.0034030675888061523
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 6}:  0.004039192199707031
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 7}:  0.00462954044342041
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 8}:  0.005295085906982422
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 9}:  0.006124258041381836
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 1}:  0.0009552717208862304
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 2}:  0.001612710952758789
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 3}:  0.0024022579193115233
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 4}:  0.0028220176696777343
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 5}:  0.003565049171447754
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 6}:  0.00409092903137207
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 7}:  0.004705619812011719
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 8}:  0.005401062965393067
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 9}:  0.006093311309814453
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 1}:  0.00095977783203125
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 2}:  0.0016575098037719727
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 3}:  0.0023355007171630858
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 4}:  0.003403925895690918
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 5}:  0.0039662599563598635
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 6}:  0.004587054252624512
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 7}:  0.004766440391540528
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 8}:  0.005450725555419922
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 9}:  0.0066279411315917965
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 1}:  0.001109933853149414
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 2}:  0.001984429359436035
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 3}:  0.003015446662902832
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 4}:  0.003797149658203125
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 5}:  0.004334640502929687
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 6}:  0.005182504653930664
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 7}:  0.00749502182006836
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 8}:  0.0073326826095581055
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 9}:  0.008787226676940919
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 1}:  0.0016059637069702148
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 2}:  0.0024915695190429687
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 3}:  0.0025151729583740234
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 4}:  0.0030242443084716798
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 5}:  0.0038192272186279297
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 6}:  0.007548022270202637
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 7}:  0.0059868812561035155
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 8}:  0.010676026344299316
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 9}:  0.009910941123962402
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 1}:  0.00117034912109375
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 2}:  0.0040313959121704105
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 3}:  0.0030054330825805666
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 4}:  0.003364753723144531
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 5}:  0.004191470146179199
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 6}:  0.006494283676147461
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 7}:  0.00906829833984375
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 8}:  0.00761103630065918
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 9}:  0.006646108627319336
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 1}:  0.0011368274688720703
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 2}:  0.001808023452758789
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 3}:  0.0025433778762817385
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 4}:  0.0030143022537231444
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 5}:  0.003440999984741211
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 6}:  0.004199910163879395
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 7}:  0.0054454803466796875
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 8}:  0.0053454160690307615
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 9}:  0.006475043296813965
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 1}:  0.0009565591812133789
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 2}:  0.0016303062438964844
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 3}:  0.0022396087646484376
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 4}:  0.002837395668029785
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 5}:  0.003473639488220215
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 6}:  0.004069852828979492
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 7}:  0.004689741134643555
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 8}:  0.005710864067077636
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 9}:  0.00640566349029541
 
 
 ____________________________________________________________
@@ -602,8 +602,8 @@ Best param
 {'alpha': 1}
 
 Mean fit time
-{'alpha': 1}:  0.049792122840881345
-{'alpha': 2}:  0.049723124504089354
+{'alpha': 1}:  0.1094475269317627
+{'alpha': 2}:  0.16865999698638917
 
 
 
@@ -619,36 +619,36 @@ Best param
 {'n_neighbors': 20}
 
 Mean fit time
-{'n_neighbors': 1}:  0.0001964569091796875
-{'n_neighbors': 2}:  0.00019173622131347657
-{'n_neighbors': 3}:  0.00019376277923583985
-{'n_neighbors': 4}:  0.0001916646957397461
-{'n_neighbors': 5}:  0.00019469261169433594
-{'n_neighbors': 6}:  0.0001940488815307617
-{'n_neighbors': 7}:  0.0001924276351928711
-{'n_neighbors': 8}:  0.0001918792724609375
-{'n_neighbors': 9}:  0.00019211769104003905
-{'n_neighbors': 10}:  0.00019159317016601563
-{'n_neighbors': 11}:  0.00019364356994628907
-{'n_neighbors': 12}:  0.00019533634185791015
-{'n_neighbors': 13}:  0.00019211769104003905
-{'n_neighbors': 14}:  0.0001935720443725586
-{'n_neighbors': 15}:  0.00019466876983642578
-{'n_neighbors': 16}:  0.00019268989562988282
-{'n_neighbors': 17}:  0.0001922130584716797
-{'n_neighbors': 18}:  0.00019316673278808595
-{'n_neighbors': 19}:  0.00019128322601318358
-{'n_neighbors': 20}:  0.00019211769104003905
-{'n_neighbors': 21}:  0.00019235610961914061
-{'n_neighbors': 22}:  0.00019304752349853517
-{'n_neighbors': 23}:  0.00019259452819824218
-{'n_neighbors': 24}:  0.0001997709274291992
-{'n_neighbors': 25}:  0.00019173622131347657
-{'n_neighbors': 26}:  0.00018455982208251954
-{'n_neighbors': 27}:  0.00014848709106445311
-{'n_neighbors': 28}:  0.00014753341674804686
-{'n_neighbors': 29}:  0.00014865398406982422
-{'n_neighbors': 30}:  0.0001476287841796875
+{'n_neighbors': 1}:  0.0022444725036621094
+{'n_neighbors': 2}:  0.0006572246551513672
+{'n_neighbors': 3}:  0.0006485939025878906
+{'n_neighbors': 4}:  0.00045459270477294923
+{'n_neighbors': 5}:  0.0005491733551025391
+{'n_neighbors': 6}:  0.0003604888916015625
+{'n_neighbors': 7}:  0.00044918060302734375
+{'n_neighbors': 8}:  0.0003570079803466797
+{'n_neighbors': 9}:  0.0003986835479736328
+{'n_neighbors': 10}:  0.00039167404174804686
+{'n_neighbors': 11}:  0.00034139156341552737
+{'n_neighbors': 12}:  0.00048766136169433596
+{'n_neighbors': 13}:  0.0003758907318115234
+{'n_neighbors': 14}:  0.0003670930862426758
+{'n_neighbors': 15}:  0.000418853759765625
+{'n_neighbors': 16}:  0.0004828929901123047
+{'n_neighbors': 17}:  0.00043363571166992186
+{'n_neighbors': 18}:  0.0004012584686279297
+{'n_neighbors': 19}:  0.0003510951995849609
+{'n_neighbors': 20}:  0.00035643577575683594
+{'n_neighbors': 21}:  0.00034513473510742185
+{'n_neighbors': 22}:  0.00033855438232421875
+{'n_neighbors': 23}:  0.00037755966186523435
+{'n_neighbors': 24}:  0.00039415359497070314
+{'n_neighbors': 25}:  0.00034160614013671874
+{'n_neighbors': 26}:  0.00044522285461425783
+{'n_neighbors': 27}:  0.00028295516967773436
+{'n_neighbors': 28}:  0.0003039836883544922
+{'n_neighbors': 29}:  0.0003119230270385742
+{'n_neighbors': 30}:  0.00031256675720214844
 
 
 ____________________________________________________________
@@ -662,14 +662,14 @@ Best param
 {'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}
 
 Mean fit time
-{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00022189617156982423
-{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00021665096282958985
-{'C': 20, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0002089977264404297
-{'C': 20, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.00021910667419433594
-{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00020258426666259767
-{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0002159595489501953
-{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00020062923431396484
-{'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0002086639404296875
+{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00038769245147705076
+{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0004420280456542969
+{'C': 20, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0003343343734741211
+{'C': 20, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0003442287445068359
+{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}:  0.00031390190124511717
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0003417015075683594
+{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}:  0.0003116130828857422
+{'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}:  0.0003184795379638672
 
 
 ____________________________________________________________
@@ -683,15 +683,15 @@ Best param
 {'C': 1000, 'kernel': 'linear'}
 
 Mean fit time
-{'C': 1, 'kernel': 'linear'}:  0.00023627281188964844
-{'C': 20, 'kernel': 'linear'}:  0.00022575855255126953
-{'C': 100, 'kernel': 'linear'}:  0.00023467540740966796
-{'C': 1000, 'kernel': 'linear'}:  0.00031256675720214844
+{'C': 1, 'kernel': 'linear'}:  0.00038166046142578124
+{'C': 20, 'kernel': 'linear'}:  0.00035145282745361326
+{'C': 100, 'kernel': 'linear'}:  0.0003650665283203125
+{'C': 1000, 'kernel': 'linear'}:  0.0004835605621337891
 
 
 ____________________________________________________________
 Best estimator
-DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=3,
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=5,
             max_features=None, max_leaf_nodes=None,
             min_impurity_decrease=0.0, min_impurity_split=None,
             min_samples_leaf=1, min_samples_split=2,
@@ -699,24 +699,24 @@ DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=3,
             splitter='best')
 
 Best param
-{'max_depth': 3}
+{'max_depth': 5}
 
 Mean fit time
-{'max_depth': 1}:  0.00014846324920654298
-{'max_depth': 2}:  0.00015010833740234376
-{'max_depth': 3}:  0.00015027523040771483
-{'max_depth': 4}:  0.00015103816986083984
-{'max_depth': 5}:  0.00015103816986083984
-{'max_depth': 6}:  0.0001513957977294922
-{'max_depth': 7}:  0.00015137195587158203
-{'max_depth': 8}:  0.0001516103744506836
-{'max_depth': 9}:  0.00015091896057128906
+{'max_depth': 1}:  0.0002593517303466797
+{'max_depth': 2}:  0.00025625228881835936
+{'max_depth': 3}:  0.0002608299255371094
+{'max_depth': 4}:  0.0002642631530761719
+{'max_depth': 5}:  0.00026121139526367185
+{'max_depth': 6}:  0.00038270950317382814
+{'max_depth': 7}:  0.0002766132354736328
+{'max_depth': 8}:  0.00030760765075683595
+{'max_depth': 9}:  0.0002664327621459961
 
 
 ____________________________________________________________
 Best estimator
 RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
-            max_depth=1, max_features=1, max_leaf_nodes=None,
+            max_depth=3, max_features=1, max_leaf_nodes=None,
             min_impurity_decrease=0.0, min_impurity_split=None,
             min_samples_leaf=1, min_samples_split=2,
             min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=None,
@@ -724,171 +724,171 @@ RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
             warm_start=False)
 
 Best param
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 4}
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 4}
 
 Mean fit time
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 1}:  0.0005793333053588867
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 2}:  0.0009795427322387695
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 3}:  0.0013324737548828125
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 4}:  0.001695871353149414
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 5}:  0.002091383934020996
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 6}:  0.0024283647537231444
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 7}:  0.002799105644226074
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 8}:  0.0031541109085083006
-{'max_depth': 1, 'max_features': 1, 'n_estimators': 9}:  0.003522300720214844
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 1}:  0.0005829334259033203
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 2}:  0.000983262062072754
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 3}:  0.001334547996520996
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 4}:  0.0017087221145629882
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 5}:  0.002076268196105957
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 6}:  0.0024443864822387695
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 7}:  0.0027968168258666994
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 8}:  0.0031813383102416992
-{'max_depth': 1, 'max_features': 2, 'n_estimators': 9}:  0.0035464286804199217
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 1}:  0.0005811691284179687
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 2}:  0.0009656906127929688
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 3}:  0.0013307571411132813
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 4}:  0.0017085313796997071
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 5}:  0.0020893573760986327
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 6}:  0.00243985652923584
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 7}:  0.0028087854385375976
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 8}:  0.003173542022705078
-{'max_depth': 2, 'max_features': 1, 'n_estimators': 9}:  0.003532600402832031
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 1}:  0.0005846261978149414
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 2}:  0.0009656906127929688
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 3}:  0.0014624834060668946
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 4}:  0.0017338275909423828
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 5}:  0.002090263366699219
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 6}:  0.0024505615234375
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 7}:  0.0028245925903320314
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 8}:  0.003197503089904785
-{'max_depth': 2, 'max_features': 2, 'n_estimators': 9}:  0.003573918342590332
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 1}:  0.0005898475646972656
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 2}:  0.0009752511978149414
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 3}:  0.001344776153564453
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 4}:  0.0017177820205688476
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 5}:  0.0020821332931518556
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 6}:  0.002538251876831055
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 7}:  0.002839064598083496
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 8}:  0.0031863927841186525
-{'max_depth': 3, 'max_features': 1, 'n_estimators': 9}:  0.0035655975341796877
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 1}:  0.0005843400955200196
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 2}:  0.0009678125381469727
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 3}:  0.0013406991958618164
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 4}:  0.001722240447998047
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 5}:  0.0021105051040649415
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 6}:  0.0024571657180786134
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 7}:  0.0028214216232299804
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 8}:  0.003195381164550781
-{'max_depth': 3, 'max_features': 2, 'n_estimators': 9}:  0.003564000129699707
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 1}:  0.0005815744400024414
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 2}:  0.0009687185287475586
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 3}:  0.0013428211212158203
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 4}:  0.001721668243408203
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 5}:  0.002081632614135742
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 6}:  0.0024522781372070313
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 7}:  0.0028533220291137697
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 8}:  0.003206157684326172
-{'max_depth': 4, 'max_features': 1, 'n_estimators': 9}:  0.003591632843017578
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 1}:  0.0005860328674316406
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 2}:  0.0009728431701660156
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 3}:  0.0013730525970458984
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 4}:  0.0017327547073364257
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 5}:  0.002143454551696777
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 6}:  0.0024807929992675783
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 7}:  0.00284121036529541
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 8}:  0.003198385238647461
-{'max_depth': 4, 'max_features': 2, 'n_estimators': 9}:  0.0035883188247680664
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 1}:  0.0005823850631713867
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 2}:  0.0009783029556274414
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 3}:  0.001349496841430664
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 4}:  0.0017150402069091796
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 5}:  0.0020881414413452147
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 6}:  0.002452850341796875
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 7}:  0.002827024459838867
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 8}:  0.0031876325607299804
-{'max_depth': 5, 'max_features': 1, 'n_estimators': 9}:  0.003570961952209473
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 1}:  0.0005840778350830079
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 2}:  0.0009681463241577148
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 3}:  0.001337742805480957
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 4}:  0.0017217397689819336
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 5}:  0.0020961523056030273
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 6}:  0.0024716854095458984
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 7}:  0.002833867073059082
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 8}:  0.003189754486083984
-{'max_depth': 5, 'max_features': 2, 'n_estimators': 9}:  0.0035692691802978516
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 1}:  0.0005839109420776367
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 2}:  0.0009658575057983398
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 3}:  0.0013606548309326172
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 4}:  0.0017144203186035157
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 5}:  0.002122235298156738
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 6}:  0.002445554733276367
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 7}:  0.002820873260498047
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 8}:  0.0032387018203735352
-{'max_depth': 6, 'max_features': 1, 'n_estimators': 9}:  0.0036429166793823242
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 1}:  0.0005880594253540039
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 2}:  0.0009699106216430664
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 3}:  0.001356220245361328
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 4}:  0.0017199754714965821
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 5}:  0.0020964384078979493
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 6}:  0.0024691343307495115
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 7}:  0.002839207649230957
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 8}:  0.003211212158203125
-{'max_depth': 6, 'max_features': 2, 'n_estimators': 9}:  0.003567361831665039
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 1}:  0.0005839586257934571
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 2}:  0.0009833574295043945
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 3}:  0.0013407230377197265
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 4}:  0.0017084121704101563
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 5}:  0.0020958662033081056
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 6}:  0.002470564842224121
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 7}:  0.0028146028518676756
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 8}:  0.003225088119506836
-{'max_depth': 7, 'max_features': 1, 'n_estimators': 9}:  0.0036168813705444334
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 1}:  0.0005839586257934571
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 2}:  0.0009796857833862306
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 3}:  0.0013489484786987304
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 4}:  0.0017386436462402343
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 5}:  0.0021117448806762694
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 6}:  0.002479100227355957
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 7}:  0.0028959035873413084
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 8}:  0.0032219886779785156
-{'max_depth': 7, 'max_features': 2, 'n_estimators': 9}:  0.003589224815368652
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 1}:  0.0005891323089599609
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 2}:  0.0009750604629516601
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 3}:  0.0013530731201171875
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 4}:  0.001727294921875
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 5}:  0.002106642723083496
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 6}:  0.002461814880371094
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 7}:  0.0028383731842041016
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 8}:  0.003187417984008789
-{'max_depth': 8, 'max_features': 1, 'n_estimators': 9}:  0.0045766115188598635
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 1}:  0.0005868911743164062
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 2}:  0.0009725332260131836
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 3}:  0.0013469696044921876
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 4}:  0.001715540885925293
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 5}:  0.0020926952362060546
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 6}:  0.00247039794921875
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 7}:  0.0028360605239868162
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 8}:  0.0032149553298950195
-{'max_depth': 8, 'max_features': 2, 'n_estimators': 9}:  0.003580164909362793
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 1}:  0.0005818843841552734
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 2}:  0.0009629487991333008
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 3}:  0.001341104507446289
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 4}:  0.0017247915267944336
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 5}:  0.002086973190307617
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 6}:  0.002444291114807129
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 7}:  0.002812910079956055
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 8}:  0.0031768321990966798
-{'max_depth': 9, 'max_features': 1, 'n_estimators': 9}:  0.00355684757232666
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 1}:  0.0005822658538818359
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 2}:  0.0009765148162841797
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 3}:  0.0013602733612060546
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 4}:  0.0017165660858154297
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 5}:  0.0020859479904174806
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 6}:  0.0024474143981933595
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 7}:  0.002840566635131836
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 8}:  0.003189373016357422
-{'max_depth': 9, 'max_features': 2, 'n_estimators': 9}:  0.003573322296142578
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 1}:  0.001087188720703125
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 2}:  0.0015663862228393554
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 3}:  0.002342820167541504
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 4}:  0.0028772354125976562
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 5}:  0.004458427429199219
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 6}:  0.004326009750366211
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 7}:  0.006536602973937988
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 8}:  0.0068064451217651365
+{'max_depth': 1, 'max_features': 1, 'n_estimators': 9}:  0.009154510498046876
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 1}:  0.0009367942810058593
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 2}:  0.0015639305114746095
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 3}:  0.0022642135620117186
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 4}:  0.003513813018798828
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 5}:  0.005605530738830566
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 6}:  0.006717252731323242
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 7}:  0.00734100341796875
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 8}:  0.00648040771484375
+{'max_depth': 1, 'max_features': 2, 'n_estimators': 9}:  0.006437921524047851
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 1}:  0.0010999917984008789
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 2}:  0.0020113468170166017
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 3}:  0.0027628421783447267
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 4}:  0.00349271297454834
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 5}:  0.004019618034362793
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 6}:  0.005716133117675781
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 7}:  0.006287956237792968
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 8}:  0.008173274993896484
+{'max_depth': 2, 'max_features': 1, 'n_estimators': 9}:  0.009105515480041505
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 1}:  0.0013287067413330078
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 2}:  0.0027144908905029296
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 3}:  0.0035274505615234377
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 4}:  0.004634499549865723
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 5}:  0.0035738468170166014
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 6}:  0.004130649566650391
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 7}:  0.005803823471069336
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 8}:  0.007530117034912109
+{'max_depth': 2, 'max_features': 2, 'n_estimators': 9}:  0.007681441307067871
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 1}:  0.0014333248138427735
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 2}:  0.002599024772644043
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 3}:  0.002882528305053711
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 4}:  0.0027773380279541016
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 5}:  0.003459620475769043
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 6}:  0.004352164268493652
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 7}:  0.006716465950012207
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 8}:  0.00912172794342041
+{'max_depth': 3, 'max_features': 1, 'n_estimators': 9}:  0.007210278511047363
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 1}:  0.0010942935943603516
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 2}:  0.002062678337097168
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 3}:  0.0027151584625244142
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 4}:  0.003742361068725586
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 5}:  0.004818463325500488
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 6}:  0.004548573493957519
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 7}:  0.0048214435577392575
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 8}:  0.005641341209411621
+{'max_depth': 3, 'max_features': 2, 'n_estimators': 9}:  0.0063773393630981445
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 1}:  0.0009135007858276367
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 2}:  0.0015671730041503906
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 3}:  0.002492809295654297
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 4}:  0.0036561250686645507
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 5}:  0.0052452564239501955
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 6}:  0.008038568496704101
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 7}:  0.005606961250305176
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 8}:  0.006384825706481934
+{'max_depth': 4, 'max_features': 1, 'n_estimators': 9}:  0.007257246971130371
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 1}:  0.001161336898803711
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 2}:  0.002275538444519043
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 3}:  0.0026659488677978514
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 4}:  0.00316927433013916
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 5}:  0.003970098495483398
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 6}:  0.004875588417053223
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 7}:  0.0068074226379394535
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 8}:  0.00702199935913086
+{'max_depth': 4, 'max_features': 2, 'n_estimators': 9}:  0.006736254692077637
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 1}:  0.0013550043106079102
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 2}:  0.0016589641571044921
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 3}:  0.002503204345703125
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 4}:  0.0032543182373046876
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 5}:  0.0038474321365356444
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 6}:  0.005012774467468261
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 7}:  0.005211377143859863
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 8}:  0.0064876794815063475
+{'max_depth': 5, 'max_features': 1, 'n_estimators': 9}:  0.007052087783813476
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 1}:  0.0012489557266235352
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 2}:  0.0018211603164672852
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 3}:  0.0025541305541992186
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 4}:  0.004408001899719238
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 5}:  0.008161115646362304
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 6}:  0.007186436653137207
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 7}:  0.008686661720275879
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 8}:  0.010139751434326171
+{'max_depth': 5, 'max_features': 2, 'n_estimators': 9}:  0.015965199470520018
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 1}:  0.0013274192810058595
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 2}:  0.0019886970520019533
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 3}:  0.0023516178131103515
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 4}:  0.0034069061279296876
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 5}:  0.004395794868469238
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 6}:  0.004937672615051269
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 7}:  0.0061520814895629885
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 8}:  0.005916762351989746
+{'max_depth': 6, 'max_features': 1, 'n_estimators': 9}:  0.007897734642028809
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 1}:  0.0010033369064331055
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 2}:  0.002019381523132324
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 3}:  0.0027608633041381835
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 4}:  0.003598594665527344
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 5}:  0.003825807571411133
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 6}:  0.004624629020690918
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 7}:  0.004830503463745117
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 8}:  0.0054924249649047855
+{'max_depth': 6, 'max_features': 2, 'n_estimators': 9}:  0.00609130859375
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 1}:  0.0010001420974731444
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 2}:  0.0016392707824707032
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 3}:  0.0021892786026000977
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 4}:  0.002812027931213379
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 5}:  0.0035087108612060548
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 6}:  0.004268097877502442
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 7}:  0.0049846887588500975
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 8}:  0.005502676963806153
+{'max_depth': 7, 'max_features': 1, 'n_estimators': 9}:  0.006556558609008789
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 1}:  0.0012493133544921875
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 2}:  0.001727890968322754
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 3}:  0.002425408363342285
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 4}:  0.0031924009323120116
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 5}:  0.0036773920059204102
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 6}:  0.004464650154113769
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 7}:  0.005235624313354492
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 8}:  0.006102204322814941
+{'max_depth': 7, 'max_features': 2, 'n_estimators': 9}:  0.006792378425598144
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 1}:  0.0011152267456054688
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 2}:  0.0019051074981689454
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 3}:  0.0025516033172607424
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 4}:  0.0038300514221191405
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 5}:  0.003835630416870117
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 6}:  0.004232215881347656
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 7}:  0.005414199829101562
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 8}:  0.00640866756439209
+{'max_depth': 8, 'max_features': 1, 'n_estimators': 9}:  0.006290817260742187
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 1}:  0.0009629726409912109
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 2}:  0.0016037464141845704
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 3}:  0.0024892568588256838
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 4}:  0.003678154945373535
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 5}:  0.003933453559875488
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 6}:  0.004602599143981934
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 7}:  0.005113649368286133
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 8}:  0.00650477409362793
+{'max_depth': 8, 'max_features': 2, 'n_estimators': 9}:  0.007258272171020508
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 1}:  0.001129150390625
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 2}:  0.0018974781036376954
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 3}:  0.0023313045501708986
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 4}:  0.0028817176818847655
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 5}:  0.003445148468017578
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 6}:  0.004055476188659668
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 7}:  0.007055258750915528
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 8}:  0.006511402130126953
+{'max_depth': 9, 'max_features': 1, 'n_estimators': 9}:  0.007722926139831543
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 1}:  0.0011290788650512695
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 2}:  0.00188140869140625
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 3}:  0.0026673078536987305
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 4}:  0.0031379938125610353
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 5}:  0.0040694475173950195
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 6}:  0.0044545412063598635
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 7}:  0.005234432220458984
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 8}:  0.005904793739318848
+{'max_depth': 9, 'max_features': 2, 'n_estimators': 9}:  0.0066174745559692385
 
 
 ____________________________________________________________
@@ -905,5 +905,5 @@ Best param
 {'alpha': 2}
 
 Mean fit time
-{'alpha': 1}:  0.04999432563781738
-{'alpha': 2}:  0.05009925365447998
+{'alpha': 1}:  0.19092087745666503
+{'alpha': 2}:  0.11948947906494141
