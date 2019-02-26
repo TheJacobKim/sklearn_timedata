@@ -49,7 +49,7 @@ regressors = [
 # Parameters used for parameter fields below
 k_range = list(range(1, 21))
 leaf_range = list(range(20, 40))
-radius_range = list(range(0.5, 2, 0.1))
+radius_range = [i for i in np.arange(0.5, 2, 0.1)]
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
 m_range = list(range(1, 3))
@@ -192,29 +192,35 @@ for ds_cnt, ds in enumerate(classification_datasets):
     i = 0
     # iterate over classifiers
     for clf in classifiers:
-        grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=10, scoring='accuracy')
-        grid.fit(X_train, y_train)
-        i += 1
+        try:
+            print("Working on ",  str(clf))
+            grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=10, scoring='accuracy')
+            grid.fit(X_train, y_train)
+            i += 1
 
-        print("Working on ",  str(clf))
-        # CSV writer
-        param_list = grid.cv_results_['params']
-        fieldnames = list(param_list[0].keys())
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
-        writer.writeheader()
+            # CSV writer
+            param_list = grid.cv_results_['params']
+            fieldnames = list(param_list[0].keys())
+            fieldnames.append('mean_fit_time')
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
+            writer.writeheader()
 
-        # Best estimator overall
-        # writer.writerow(str(grid.best_estimator_))
+            # Best estimator overall
+            # writer.writerow(str(grid.best_estimator_))
 
-        # What was the best param?
-        # f.write("\n\nBest param\n")
-        # f.write(str(grid.best_params_))
+            # What was the best param?
+            # f.write("\n\nBest param\n")
+            # f.write(str(grid.best_params_))
 
-        # Save params & mean fit time and compare
-        mean_fit_time = grid.cv_results_['mean_fit_time']
-        for param, time in zip(param_list, mean_fit_time):
-            param['mean_fit_time'] = time
-            writer.writerow(param)
+            # Save params & mean fit time and compare
+            mean_fit_time = grid.cv_results_['mean_fit_time']
+            for param, time in zip(param_list, mean_fit_time):
+                param['mean_fit_time'] = time
+                writer.writerow(param)
+
+        except Exception as e: 
+            print(e)
+
 
 
 file.close()
