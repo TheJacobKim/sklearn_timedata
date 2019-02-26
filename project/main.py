@@ -47,9 +47,9 @@ regressors = [
 ]
 
 # Parameters used for parameter fields below
-k_range = list(range(1, 10))
-leaf_range = list(range(28, 32))
-radius_range = list(range(0.5, 2, 0.1))
+k_range = list(range(1, 21))
+leaf_range = list(range(20, 40))
+radius_range = [i for i in np.arange(0.5, 2, 0.1)]
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
 m_range = list(range(1, 3))
@@ -76,15 +76,15 @@ classifiers_list = [DecisionTreeClassifier(random_state=3, max_features="auto", 
                     MLPClassifier(hidden_layer_sizes=190),
                     ]
 
-regressors_list = [DecisionTreeRegressor(random_state=3, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=4, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=5, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=6, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=7, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=8, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=9, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=10, max_features="auto", class_weight="auto", max_depth=None),
-                   DecisionTreeRegressor(random_state=11, max_features="auto", class_weight="auto", max_depth=None),
+regressors_list = [DecisionTreeRegressor(random_state=3, max_features="auto", max_depth=None),
+                   DecisionTreeRegressor(random_state=4, max_features="auto",max_depth=None),
+                   DecisionTreeRegressor(random_state=5, max_features="auto",max_depth=None),
+                   DecisionTreeRegressor(random_state=6, max_features="auto",max_depth=None),
+                   DecisionTreeRegressor(random_state=7, max_features="auto",max_depth=None),
+                   DecisionTreeRegressor(random_state=8, max_features="auto",max_depth=None),
+                   DecisionTreeRegressor(random_state=9, max_features="auto",max_depth=None),
+                   DecisionTreeRegressor(random_state=10, max_features="auto",max_depth=None),
+                   DecisionTreeRegressor(random_state=11, max_features="auto",max_depth=None),
                    MLPRegressor(hidden_layer_sizes=100),
                    MLPRegressor(hidden_layer_sizes=110),
                    MLPRegressor(hidden_layer_sizes=120),
@@ -161,8 +161,8 @@ X += 2 * rng.uniform(size=X.shape)
 linearly_separable = (X, y)
 
 classification_datasets_names = ['make_moons', 'make_circles', 'linearly_separable', 'iris', 'digits', 'wine']
-classification_datasets = [make_moons(n_samples=10000, noise=0.3, random_state=1),
-                           make_circles(n_samples=10000, noise=0.2, factor=0.5, random_state=1),
+classification_datasets = [make_moons(n_samples=1000, noise=0.3, random_state=1),
+                           make_circles(n_samples=1000, noise=0.2, factor=0.5, random_state=1),
                            linearly_separable,
                            load_iris(),
                            load_digits(),
@@ -170,8 +170,8 @@ classification_datasets = [make_moons(n_samples=10000, noise=0.3, random_state=1
                            ]
 regression_datasets_names = ['make_regression', 'make_sparse_uncorrelated', 'california_housing', 'boston_housing',
                              'diabetes', 'linnerud']
-regression_datasets = [make_regression(n_samples=10000, n_features=100),
-                       make_sparse_uncorrelated(n_samples=10000),
+regression_datasets = [make_regression(n_samples=1000, n_features=100),
+                       make_sparse_uncorrelated(n_samples=1000),
                        fetch_california_housing(),
                        load_boston(),
                        load_diabetes(),
@@ -179,11 +179,16 @@ regression_datasets = [make_regression(n_samples=10000, n_features=100),
                        ]
 
 # iterate over datasets
+dataset_num = 0
 for ds_cnt, ds in enumerate(classification_datasets):
+    name = classification_datasets_names[dataset_num]
+    dataset_num  += 1
+    print("Working on " + name + "dataset")
     # preprocess dataset, split into training and test part
     X, y = ds
     X = StandardScaler().fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.4, random_state=420)
+<<<<<<< HEAD
     i = 0
 
     # iterate over classifiers
@@ -210,6 +215,41 @@ for ds_cnt, ds in enumerate(classification_datasets):
         for param, time in zip(param_list, mean_fit_time):
             param['mean_fit_time'] = time
             writer.writerow(param)
+=======
+    
+    i = 0
+    # iterate over classifiers
+    for clf in classifiers:
+        try:
+            print("Working on ",  str(clf))
+            grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=10, scoring='accuracy')
+            grid.fit(X_train, y_train)
+            i += 1
+
+            # CSV writer
+            param_list = grid.cv_results_['params']
+            fieldnames = list(param_list[0].keys())
+            fieldnames.append('mean_fit_time')
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
+            writer.writeheader()
+
+            # Best estimator overall
+            # writer.writerow(str(grid.best_estimator_))
+
+            # What was the best param?
+            # f.write("\n\nBest param\n")
+            # f.write(str(grid.best_params_))
+
+            # Save params & mean fit time and compare
+            mean_fit_time = grid.cv_results_['mean_fit_time']
+            for param, time in zip(param_list, mean_fit_time):
+                param['mean_fit_time'] = time
+                writer.writerow(param)
+
+        except Exception as e: 
+            print(e)
+
+>>>>>>> 5d0b19132fd2cbf3d621897fc8f55d7d868370fb
 
 
 file.close()
