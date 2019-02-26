@@ -47,9 +47,9 @@ regressors = [
 ]
 
 # Parameters used for parameter fields below
-k_range = list(range(1, 51))
-leaf_range = list(range(10, 50))
-radius_range = list(range(0.5, 2, 0.05))
+k_range = list(range(1, 21))
+leaf_range = list(range(20, 40))
+radius_range = list(range(0.5, 2, 0.1))
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
 m_range = list(range(1, 3))
