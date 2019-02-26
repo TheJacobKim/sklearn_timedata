@@ -27,13 +27,13 @@ names = ["Nearest Neighbors", "Linear SVM", "RBF SVM", "Gaussian Process",
 scores = ['accuracy', 'precision', 'recall']
 
 classifiers = [
-    KNeighborsClassifier(),
-    RadiusNeighborsClassifier(),
+    # KNeighborsClassifier(),
+    # RadiusNeighborsClassifier(),
     SVC(),
-    DecisionTreeClassifier(),
-    RandomForestClassifier(),
-    MLPClassifier(),
-    AdaBoostClassifier(),
+    # DecisionTreeClassifier(),
+    # RandomForestClassifier(),
+    # MLPClassifier(),
+    # AdaBoostClassifier(),
 ]
 
 regressors = [
@@ -47,8 +47,8 @@ regressors = [
 ]
 
 # Parameters used for parameter fields below
-k_range = list(range(1, 21))
-leaf_range = list(range(20, 40))
+k_range = list(range(1, 10))
+leaf_range = list(range(28, 32))
 radius_range = list(range(0.5, 2, 0.1))
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
@@ -99,30 +99,30 @@ regressors_list = [DecisionTreeRegressor(random_state=3, max_features="auto", cl
 n_estimator_range = list(range(50, 200))
 
 tuned_parameters_classifiers = [
-    # knn classifier
-    {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
-     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
-
-    # RadiusNeighborsClassifier
-    {'radius': radius_range, 'weights': ['uniform', 'distance'],
-     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+    # # knn classifier
+    # {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
+    #  'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+    #
+    # # RadiusNeighborsClassifier
+    # {'radius': radius_range, 'weights': ['uniform', 'distance'],
+    #  'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
 
     # SVM classifier
     {'kernel': ['rbf', 'linear', 'poly', 'sigmoid', 'precomputed'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
      'degree': degree_range},
-
-    # Decision Tree Classifier
-    {'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
-
-    # Random Forest Classifier
-    {'max_depth': n_range, 'n_estimators': n_estimator_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
-
-    # Neural Net, MLPClassifier
-    {'hidden_layer_sizes': hidden_layer_size_range, 'activation': ['identity', 'logistic', 'tanh', 'relu'],
-     'solver': ['lbfgs', 'sgd', 'adam'], 'learning_rate': ['constant', 'invscaling', 'adaptive']},
-
-    # AdaBoostClassifier
-    {'base_estimator': classifiers_list, 'n_estimators': n_estimator_range},
+    #
+    # # Decision Tree Classifier
+    # {'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
+    #
+    # # Random Forest Classifier
+    # {'max_depth': n_range, 'n_estimators': n_estimator_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
+    #
+    # # Neural Net, MLPClassifier
+    # {'hidden_layer_sizes': hidden_layer_size_range, 'activation': ['identity', 'logistic', 'tanh', 'relu'],
+    #  'solver': ['lbfgs', 'sgd', 'adam'], 'learning_rate': ['constant', 'invscaling', 'adaptive']},
+    #
+    # # AdaBoostClassifier
+    # {'base_estimator': classifiers_list, 'n_estimators': n_estimator_range},
 ]
 
 tuned_parameters_regressors = [
@@ -184,11 +184,13 @@ for ds_cnt, ds in enumerate(classification_datasets):
     X, y = ds
     X = StandardScaler().fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.4, random_state=420)
+    i = 0
 
     # iterate over classifiers
     for name, clf in zip(names, classifiers):
         grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=10, scoring='accuracy')
         grid.fit(X_train, y_train)
+        i+=1
 
         # CSV writer
         param_list = grid.cv_results_['params']
