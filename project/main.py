@@ -20,9 +20,9 @@ from sklearn.metrics import classification_report
 
 file = open('result.csv', 'w')
 
-names = ["Nearest Neighbors", "Linear SVM", "RBF SVM", "Gaussian Process",
+names = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
          "Decision Tree", "Random Forest", "Neural Net", "AdaBoost",
-         "Naive Bayes", "QDA"]
+        ]
 
 scores = ['accuracy', 'precision', 'recall']
 
@@ -47,8 +47,8 @@ regressors = [
 ]
 
 # Parameters used for parameter fields below
-k_range = list(range(1, 21))
-leaf_range = list(range(20, 40))
+k_range = list(range(1, 10))
+leaf_range = list(range(28, 32))
 radius_range = [i for i in np.arange(0.5, 2, 0.1)]
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
@@ -108,7 +108,7 @@ tuned_parameters_classifiers = [
     #  'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
 
     # SVM classifier
-    {'kernel': ['rbf', 'linear', 'poly', 'sigmoid', 'precomputed'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
+    {'kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
      'degree': degree_range},
     #
     # # Decision Tree Classifier
@@ -164,9 +164,9 @@ classification_datasets_names = ['make_moons', 'make_circles', 'linearly_separab
 classification_datasets = [make_moons(n_samples=1000, noise=0.3, random_state=1),
                            make_circles(n_samples=1000, noise=0.2, factor=0.5, random_state=1),
                            linearly_separable,
-                           load_iris(),
-                           load_digits(),
-                           load_wine()
+                           load_iris(return_X_y = True),
+                           load_digits(return_X_y = True),
+                           load_wine(return_X_y = True)
                            ]
 regression_datasets_names = ['make_regression', 'make_sparse_uncorrelated', 'california_housing', 'boston_housing',
                              'diabetes', 'linnerud']
@@ -188,34 +188,6 @@ for ds_cnt, ds in enumerate(classification_datasets):
     X, y = ds
     X = StandardScaler().fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.4, random_state=420)
-<<<<<<< HEAD
-    i = 0
-
-    # iterate over classifiers
-    for name, clf in zip(names, classifiers):
-        grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=10, scoring='accuracy')
-        grid.fit(X_train, y_train)
-        i+=1
-
-        # CSV writer
-        param_list = grid.cv_results_['params']
-        fieldnames = list(param_list[0].keys())
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
-        writer.writeheader()
-
-        # Best estimator overall
-        # writer.writerow(str(grid.best_estimator_))
-
-        # What was the best param?
-        # f.write("\n\nBest param\n")
-        # f.write(str(grid.best_params_))
-
-        # Save params & mean fit time and compare
-        mean_fit_time = grid.cv_results_['mean_fit_time']
-        for param, time in zip(param_list, mean_fit_time):
-            param['mean_fit_time'] = time
-            writer.writerow(param)
-=======
     
     i = 0
     # iterate over classifiers
@@ -233,13 +205,6 @@ for ds_cnt, ds in enumerate(classification_datasets):
             writer = csv.DictWriter(file, fieldnames=fieldnames)
             writer.writeheader()
 
-            # Best estimator overall
-            # writer.writerow(str(grid.best_estimator_))
-
-            # What was the best param?
-            # f.write("\n\nBest param\n")
-            # f.write(str(grid.best_params_))
-
             # Save params & mean fit time and compare
             mean_fit_time = grid.cv_results_['mean_fit_time']
             for param, time in zip(param_list, mean_fit_time):
@@ -248,8 +213,5 @@ for ds_cnt, ds in enumerate(classification_datasets):
 
         except Exception as e: 
             print(e)
-
->>>>>>> 5d0b19132fd2cbf3d621897fc8f55d7d868370fb
-
 
 file.close()
