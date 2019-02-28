@@ -18,7 +18,7 @@ from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
-
+# Add more algo and datasets
 f = open('result.txt','w')
 
 names = ["Nearest Neighbors", "Linear SVM", "RBF SVM", "Gaussian Process",
