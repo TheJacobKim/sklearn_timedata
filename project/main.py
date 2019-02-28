@@ -20,20 +20,20 @@ from sklearn.metrics import classification_report
 
 file = open('result.csv', 'w')
 
-names = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
-         "Decision Tree", "Random Forest", "Neural Net", "AdaBoost",
+ALGORITHM_NAMES = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
+         "Random Forest", "Neural Net", "AdaBoost",
         ]
 
 scores = ['accuracy', 'precision', 'recall']
 
 classifiers = [
-    # KNeighborsClassifier(),
-    # RadiusNeighborsClassifier(),
+    KNeighborsClassifier(),
+    RadiusNeighborsClassifier(),
     SVC(),
-    # DecisionTreeClassifier(),
-    # RandomForestClassifier(),
-    # MLPClassifier(),
-    # AdaBoostClassifier(),
+    DecisionTreeClassifier(),
+    RandomForestClassifier(),
+    MLPClassifier(),
+    AdaBoostClassifier(),
 ]
 
 regressors = [
@@ -99,30 +99,30 @@ regressors_list = [DecisionTreeRegressor(random_state=3, max_features="auto", ma
 n_estimator_range = list(range(50, 200))
 
 tuned_parameters_classifiers = [
-    # # knn classifier
-    # {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
-    #  'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
-    #
-    # # RadiusNeighborsClassifier
-    # {'radius': radius_range, 'weights': ['uniform', 'distance'],
-    #  'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+    # knn classifier
+    {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
+    'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+    
+    # RadiusNeighborsClassifier
+    {'radius': radius_range, 'weights': ['uniform', 'distance'],
+    'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
 
     # SVM classifier
     {'kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
      'degree': degree_range},
-    #
-    # # Decision Tree Classifier
-    # {'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
-    #
-    # # Random Forest Classifier
-    # {'max_depth': n_range, 'n_estimators': n_estimator_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
-    #
-    # # Neural Net, MLPClassifier
-    # {'hidden_layer_sizes': hidden_layer_size_range, 'activation': ['identity', 'logistic', 'tanh', 'relu'],
-    #  'solver': ['lbfgs', 'sgd', 'adam'], 'learning_rate': ['constant', 'invscaling', 'adaptive']},
-    #
-    # # AdaBoostClassifier
-    # {'base_estimator': classifiers_list, 'n_estimators': n_estimator_range},
+    
+    # Decision Tree Classifier
+    {'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
+    
+    # Random Forest Classifier
+    {'max_depth': n_range, 'n_estimators': n_estimator_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
+    
+    # Neural Net, MLPClassifier
+    {'hidden_layer_sizes': hidden_layer_size_range, 'activation': ['identity', 'logistic', 'tanh', 'relu'],
+    'solver': ['lbfgs', 'sgd', 'adam'], 'learning_rate': ['constant', 'invscaling', 'adaptive']},
+    
+    # AdaBoostClassifier
+    {'base_estimator': classifiers_list, 'n_estimators': n_estimator_range},
 ]
 
 tuned_parameters_regressors = [
@@ -161,8 +161,8 @@ X += 2 * rng.uniform(size=X.shape)
 linearly_separable = (X, y)
 
 classification_datasets_names = ['make_moons', 'make_circles', 'linearly_separable', 'iris', 'digits', 'wine']
-classification_datasets = [make_moons(n_samples=1000, noise=0.3, random_state=1),
-                           make_circles(n_samples=1000, noise=0.2, factor=0.5, random_state=1),
+classification_datasets = [make_moons(n_samples=10000, noise=0.3, random_state=1),
+                           make_circles(n_samples=10000, noise=0.2, factor=0.5, random_state=1),
                            linearly_separable,
                            load_iris(return_X_y = True),
                            load_digits(return_X_y = True),
@@ -170,8 +170,8 @@ classification_datasets = [make_moons(n_samples=1000, noise=0.3, random_state=1)
                            ]
 regression_datasets_names = ['make_regression', 'make_sparse_uncorrelated', 'california_housing', 'boston_housing',
                              'diabetes', 'linnerud']
-regression_datasets = [make_regression(n_samples=1000, n_features=100),
-                       make_sparse_uncorrelated(n_samples=1000),
+regression_datasets = [make_regression(n_samples=10000, n_features=100),
+                       make_sparse_uncorrelated(n_samples=10000),
                        fetch_california_housing(),
                        load_boston(),
                        load_diabetes(),
@@ -196,12 +196,13 @@ for ds_cnt, ds in enumerate(classification_datasets):
             print("Working on ",  str(clf))
             grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=10, scoring='accuracy')
             grid.fit(X_train, y_train)
-            i += 1
 
             # CSV writer
             param_list = grid.cv_results_['params']
             fieldnames = list(param_list[0].keys())
             fieldnames.append('mean_fit_time')
+            fieldnames.insert(0, 'algorithm_name')
+            fieldnames.insert(1, 'dataset_name')
             writer = csv.DictWriter(file, fieldnames=fieldnames)
             writer.writeheader()
 
@@ -209,9 +210,12 @@ for ds_cnt, ds in enumerate(classification_datasets):
             mean_fit_time = grid.cv_results_['mean_fit_time']
             for param, time in zip(param_list, mean_fit_time):
                 param['mean_fit_time'] = time
+                param['algorithm_name'] = ALGORITHM_NAMES[i]
+                param['dataset_name'] = name
                 writer.writerow(param)
 
         except Exception as e: 
             print(e)
+        i+=1
 
 file.close()
