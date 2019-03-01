@@ -17,6 +17,8 @@ from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
+from sklearn import preprocessing
+
 
 file = open('result.csv', 'w')
 
@@ -48,7 +50,7 @@ regressors = [
 
 # Parameters used for parameter fields below
 k_range = list(range(1, 10))
-leaf_range = list(range(28, 32))
+leaf_range = list(range(25, 35))
 radius_range = [i for i in np.arange(0.5, 2, 0.1)]
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
@@ -102,7 +104,7 @@ tuned_parameters_classifiers = [
     # knn classifier
     {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
-    
+
     # RadiusNeighborsClassifier
     {'radius': radius_range, 'weights': ['uniform', 'distance'],
     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
@@ -110,17 +112,17 @@ tuned_parameters_classifiers = [
     # SVM classifier
     {'kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
      'degree': degree_range},
-    
+
     # Decision Tree Classifier
     {'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
-    
+
     # Random Forest Classifier
     {'max_depth': n_range, 'n_estimators': n_estimator_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
-    
+
     # Neural Net, MLPClassifier
     {'hidden_layer_sizes': hidden_layer_size_range, 'activation': ['identity', 'logistic', 'tanh', 'relu'],
     'solver': ['lbfgs', 'sgd', 'adam'], 'learning_rate': ['constant', 'invscaling', 'adaptive']},
-    
+
     # AdaBoostClassifier
     {'base_estimator': classifiers_list, 'n_estimators': n_estimator_range},
 ]
@@ -188,6 +190,7 @@ for ds_cnt, ds in enumerate(classification_datasets):
     X, y = ds
     X = StandardScaler().fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.4, random_state=420)
+    X_train = preprocessing.scale(X_train)
     
     i = 0
     # iterate over classifiers
@@ -216,6 +219,6 @@ for ds_cnt, ds in enumerate(classification_datasets):
 
         except Exception as e: 
             print(e)
-        i+=1
+        i += 1
 
 file.close()
