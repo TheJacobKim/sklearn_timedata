@@ -29,7 +29,7 @@ ALGORITHM_NAMES = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
 scores = ['accuracy', 'precision', 'recall']
 
 classifiers = [
-    #KNeighborsClassifier(),
+    KNeighborsClassifier(),
     SVC(),
     DecisionTreeClassifier(),
     RandomForestClassifier(),
@@ -99,8 +99,8 @@ n_estimator_range = list(range(50, 200))
 
 tuned_parameters_classifiers = [
     # knn classifier
-    # {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
-    # 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+    {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
+     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
 
     # SVM classifier
     {'kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
