@@ -29,8 +29,7 @@ ALGORITHM_NAMES = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
 scores = ['accuracy', 'precision', 'recall']
 
 classifiers = [
-    KNeighborsClassifier(),
-    RadiusNeighborsClassifier(),
+    #KNeighborsClassifier(),
     SVC(),
     DecisionTreeClassifier(),
     RandomForestClassifier(),
@@ -40,7 +39,6 @@ classifiers = [
 
 regressors = [
     KNeighborsRegressor(),
-    RadiusNeighborsRegressor(),
     SVR(),
     DecisionTreeRegressor(),
     RandomForestRegressor(),
@@ -51,7 +49,6 @@ regressors = [
 # Parameters used for parameter fields below
 k_range = list(range(1, 10))
 leaf_range = list(range(25, 35))
-radius_range = [i for i in np.arange(0.5, 2, 0.1)]
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
 m_range = list(range(1, 3))
@@ -102,19 +99,15 @@ n_estimator_range = list(range(50, 200))
 
 tuned_parameters_classifiers = [
     # knn classifier
-    {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
-    'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
-
-    # RadiusNeighborsClassifier
-    {'radius': radius_range, 'weights': ['uniform', 'distance'],
-    'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+    # {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
+    # 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
 
     # SVM classifier
     {'kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
      'degree': degree_range},
 
     # Decision Tree Classifier
-    {'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
+    {'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2']},
 
     # Random Forest Classifier
     {'max_depth': n_range, 'n_estimators': n_estimator_range, 'max_features': ['auto', 'sqrt', 'log2', 'None']},
@@ -130,10 +123,6 @@ tuned_parameters_classifiers = [
 tuned_parameters_regressors = [
     # knn regression
     {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
-     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
-
-    # RadiusNeighborsRegressor
-    {'radius': radius_range, 'weights': ['uniform', 'distance'],
      'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
 
     # SVR classifier
@@ -197,7 +186,7 @@ for ds_cnt, ds in enumerate(classification_datasets):
     for clf in classifiers:
         try:
             print("Working on ",  str(clf))
-            grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=10, scoring='accuracy')
+            grid = GridSearchCV(clf, tuned_parameters_classifiers[i], cv=3, n_jobs=-1)
             grid.fit(X_train, y_train)
 
             # CSV writer
@@ -218,7 +207,8 @@ for ds_cnt, ds in enumerate(classification_datasets):
                 writer.writerow(param)
 
         except Exception as e: 
-            print(e)
+            pass
+            # print(e)
         i += 1
 
 file.close()
