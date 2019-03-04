@@ -55,7 +55,7 @@ radius_range = [i for i in np.arange(0.5, 2, 0.1)]
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
 m_range = list(range(1, 3))
-hidden_layer_size_range = list(range(80, 200))
+hidden_layer_size_range = list(range(80, 150))
 
 classifiers_list = [DecisionTreeClassifier(random_state=3, max_features="auto", class_weight="auto", max_depth=None),
                     DecisionTreeClassifier(random_state=4, max_features="auto", class_weight="auto", max_depth=None),
