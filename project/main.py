@@ -1,5 +1,7 @@
 print(__doc__)
 
+import warnings
+warnings.simplefilter(action='ignore', category=Warning)
 import numpy as np
 import csv
 from sklearn.model_selection import train_test_split
@@ -19,7 +21,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
 from sklearn import preprocessing
 
-
 file = open('result.csv', 'w')
 
 ALGORITHM_NAMES = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
@@ -29,6 +30,7 @@ ALGORITHM_NAMES = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
 scores = ['accuracy', 'precision', 'recall']
 
 classifiers = [
+<<<<<<< HEAD
     KNeighborsClassifier(),
     SVC(),
     DecisionTreeClassifier(),
@@ -100,7 +102,11 @@ n_estimator_range = list(range(50, 200))
 tuned_parameters_classifiers = [
     # knn classifier
     {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
+<<<<<<< HEAD
      'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+=======
+    'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
+>>>>>>> 7e78c43c4cd08400cde3aec44aaf9efbf714f9d7
 
     # SVM classifier
     {'kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
@@ -180,7 +186,7 @@ for ds_cnt, ds in enumerate(classification_datasets):
     X = StandardScaler().fit_transform(X)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.4, random_state=420)
     X_train = preprocessing.scale(X_train)
-    
+
     i = 0
     # iterate over classifiers
     for clf in classifiers:
@@ -206,9 +212,10 @@ for ds_cnt, ds in enumerate(classification_datasets):
                 param['dataset_name'] = name
                 writer.writerow(param)
 
-        except Exception as e: 
+        except Exception as e:
             pass
             # print(e)
         i += 1
 
 file.close()
+
