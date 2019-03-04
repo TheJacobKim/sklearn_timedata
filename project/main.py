@@ -23,14 +23,13 @@ from sklearn import preprocessing
 
 file = open('result.csv', 'w')
 
-ALGORITHM_NAMES = ["kNN", "Radius Neighbors", "SVM", "Decision Tree",
+ALGORITHM_NAMES = ["kNN", "SVM", "Decision Tree",
          "Random Forest", "Neural Net", "AdaBoost",
         ]
 
 scores = ['accuracy', 'precision', 'recall']
 
 classifiers = [
-<<<<<<< HEAD
     KNeighborsClassifier(),
     SVC(),
     DecisionTreeClassifier(),
@@ -102,11 +101,7 @@ n_estimator_range = list(range(50, 200))
 tuned_parameters_classifiers = [
     # knn classifier
     {'n_neighbors': k_range, 'weights': ['uniform', 'distance'],
-<<<<<<< HEAD
-     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
-=======
     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': leaf_range},
->>>>>>> 7e78c43c4cd08400cde3aec44aaf9efbf714f9d7
 
     # SVM classifier
     {'kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'gamma': [1e-3, 1e-4], 'C': [1, 20, 100, 1000],
