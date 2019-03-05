@@ -24,7 +24,7 @@ from sklearn import preprocessing
 file = open('result_clf.csv', 'w')
 
 ALGORITHM_NAMES = [#"kNN", "SVM", "Decision Tree",
-         "Random Forest", #"Neural Net", 
+         #"Random Forest", #"Neural Net", 
          "AdaBoost",
         ]
 
@@ -34,7 +34,7 @@ classifiers = [
     #KNeighborsClassifier(),
     #SVC(),
     #DecisionTreeClassifier(),
-    RandomForestClassifier(),
+    #RandomForestClassifier(),
     #MLPClassifier(),
     AdaBoostClassifier(),
 ]
@@ -56,25 +56,15 @@ n_range = list(range(1, 10))
 m_range = list(range(1, 3))
 hidden_layer_size_range = list(range(80, 150))
 
-classifiers_list = [DecisionTreeClassifier(random_state=3, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=4, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=5, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=6, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=7, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=8, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=9, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=10, max_features="auto", class_weight="auto"),
-                    DecisionTreeClassifier(random_state=11, max_features="auto", class_weight="auto"),
-                    MLPClassifier(hidden_layer_sizes=100),
-                    MLPClassifier(hidden_layer_sizes=110),
-                    MLPClassifier(hidden_layer_sizes=120),
-                    MLPClassifier(hidden_layer_sizes=130),
-                    MLPClassifier(hidden_layer_sizes=140),
-                    MLPClassifier(hidden_layer_sizes=150),
-                    MLPClassifier(hidden_layer_sizes=160),
-                    MLPClassifier(hidden_layer_sizes=170),
-                    MLPClassifier(hidden_layer_sizes=180),
-                    MLPClassifier(hidden_layer_sizes=190),
+classifiers_list = [DecisionTreeClassifier(random_state=3),
+                    DecisionTreeClassifier(random_state=4),
+                    DecisionTreeClassifier(random_state=5),
+                    DecisionTreeClassifier(random_state=6),
+                    DecisionTreeClassifier(random_state=7),
+                    DecisionTreeClassifier(random_state=8),
+                    DecisionTreeClassifier(random_state=9),
+                    DecisionTreeClassifier(random_state=10),
+                    DecisionTreeClassifier(random_state=11),
                     ]
 
 n_estimator_range = list(range(50, 200))
@@ -92,7 +82,7 @@ tuned_parameters_classifiers = [
     #{'max_depth': n_range, 'max_features': ['auto', 'sqrt', 'log2']},
 
     # Random Forest Classifier
-    {'max_depth': n_range, 'n_estimators': n_estimator_range, 'min_samples_leaf':[1,2,3], 'max_features': ['auto', 'sqrt', 'log2']},
+    #{'max_depth': n_range, 'n_estimators': n_estimator_range, 'min_samples_leaf':[1,2,3], 'max_features': ['auto', 'sqrt', 'log2']},
 
     # Neural Net, MLPClassifier
     #{'hidden_layer_sizes': hidden_layer_size_range, 'activation': ['identity', 'logistic', 'tanh', 'relu'],
