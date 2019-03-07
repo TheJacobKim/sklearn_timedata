@@ -44,8 +44,8 @@ leaf_range = list(range(25, 35))
 degree_range = list(range(2, 5))
 n_range = list(range(1, 10))
 m_range = list(range(1, 3))
-hidden_layer_size_range = list(range(80, 150))
-n_estimator_range = list(range(50, 200))
+hidden_layer_size_range = [60, 80, 100, 120, 140, 160, 180]
+n_estimator_range = [60, 70, 80, 90, 100, 110, 120, 130, 140]
 
 regressors_list = [DecisionTreeRegressor(random_state=3, max_features="auto"),
                    DecisionTreeRegressor(random_state=4, max_features="auto"),
@@ -94,7 +94,7 @@ tuned_parameters_regressors = [
 # Create random dataset
 regression_datasets_names = ['make_regression', 'make_sparse_uncorrelated', 'california_housing', 'boston_housing',
                              'diabetes', 'linnerud']
-regression_datasets = [make_regression(n_samples=10000, n_features=100),
+regression_datasets = [make_regression(n_samples=10000, n_features=20),
                        make_sparse_uncorrelated(n_samples=10000),
                        fetch_california_housing(),
                        load_boston(),
@@ -140,8 +140,8 @@ for ds_cnt, ds in enumerate(regression_datasets):
                 writer.writerow(param)
 
         except Exception as e:
-           # pass
-            print(e)
+            pass
+            #print(e)
         i += 1
 
 file.close()
